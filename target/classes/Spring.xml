@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        <beans>
+        <bean id="JavaFreame" class="com.ex.Category" autowire="constructor">
+        <property name="category" value="JavaWrite"></property>
+        </bean>
+        <bean id="java" class="com.ex.Book">
+        <property name="Bname" value="JavaWritings"></property>
+        <property name="pages" value="426"></property>
+        <property name="price" value="3000"></property>
+        <property name="author" value="Lokesh"></property>
+        </bean>
+        </beans>
